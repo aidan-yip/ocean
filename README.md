@@ -1,4 +1,4 @@
 # Ocean
- An open source web browser powered by DuckDuckGo
+ An open source search engine powered by DuckDuckGo
 
  https://duckduckgo.com
