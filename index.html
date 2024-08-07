@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="theme-color" content="#0098df" />
+    <title>Ocean</title>
+    <!--Google fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+  </head>
+
+  <body>
+    <div id="mainContain">
+      <form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+        <input type="hidden" name="sites" value="" />
+        <input type="hidden" name="k7" value="#0098df" />
+        <input type="hidden" name="k8" value="#ffffff" />
+        <input type="hidden" name="k9" value="#000000" />
+        <input type="hidden" name="kx" value="#50e3c2" />
+        <input type="hidden" name="kj" value="#015282" />
+        <input type="hidden" name="kt" value="a" />
+        <div id="out_circle">
+          <div id="in_circle"></div>
+        </div>
+        <div id="flex_row">
+          <input
+            type="text"
+            name="q"
+            id="search_input"
+            placeholder="🏖️"
+            aria-label="Search the web"
+          />
+          <button type="submit" id="search_button">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
