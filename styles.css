@@ -68,6 +68,7 @@
   border-radius: 35px;
   background-color: #ebebeb;
   font-size: 100%;
+  cursor: text;
 }
 
 #search_button {
@@ -78,6 +79,7 @@
   border: solid 1px #ffffff;
   border-radius: 35px;
   background-color: #0098df;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {
